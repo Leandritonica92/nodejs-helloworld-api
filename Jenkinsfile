@@ -8,7 +8,7 @@ pipeline {
                     // Define las credenciales para acceder al repositorio Git
                     withCredentials([usernamePassword(credentialsId:'pipilejenkins', usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD')]) {
                         // Clonar el repositorio Git usando las credenciales
-                        git credentialsId: 'pipilejenkins', 'url: https://github.com/Leandritonica92/nodejs-helloworld-api.git'
+                        git credentialsId: 'pipilejenkins', url: 'https://github.com/Leandritonica92/nodejs-helloworld-api.git'
                     }
                 }
             }
