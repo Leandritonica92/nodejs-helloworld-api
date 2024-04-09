@@ -24,7 +24,7 @@ pipeline {
             steps {
                 sh 'npm start &'
                 script {
-                    // Espera un poco para asegurarse de que el servidor se haya iniciado correctamente
+                    // Espera un poco para asegurarse de que el servidor se haya iniciado correctamente!
                     sleep(10)
                 }
             }
