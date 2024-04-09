@@ -22,9 +22,18 @@ pipeline {
         
         stage('Start server') {
             steps {
-                sh 'npm start'
+                sh 'npm start &'
+                script {
+                    // Espera un poco para asegurarse de que el servidor se haya iniciado correctamente
+                    sleep(10)
+                }
+            }
+        }
+        
+        stage('Make a request') {
+            steps {
+                sh 'curl http://localhost:3000'
             }
         }
     }
 }
-
