@@ -6,9 +6,9 @@ pipeline {
             steps {
                 script {
                     // Define las credenciales para acceder al repositorio Git
-                    withCredentials([usernamePassword(credentialsId:'23f774d0-4dea-4416-b599-0b9538661c32', usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD')]) {
+                    withCredentials([usernamePassword(credentialsId:'pipilejenkins', usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD')]) {
                         // Clonar el repositorio Git usando las credenciales
-                        git credentialsId:'23f774d0-4dea-4416-b599-0b9538661c32', 'url: https://github.com/Leandritonica92/nodejs-helloworld-api.git'
+                        git credentialsId:'pipilejenkins', 'url: https://github.com/Leandritonica92/nodejs-helloworld-api.git'
                     }
                 }
             }
