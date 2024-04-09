@@ -4,7 +4,13 @@ pipeline {
     stages {
         stage('Clone repository') {
             steps {
-                git 'https://github.com/TU_USUARIO/nodejs-helloworld-api.git'
+                script {
+                    // Define las credenciales para acceder al repositorio Git
+                    withCredentials([usernamePassword(credentialsId: 'ID_DE_TUS_CREDENCIALES', usernameVariable: '', passwordVariable: '')]) {
+                        // Clonar el repositorio Git usando las credenciales
+                        git credentialsId: 4dca1759-e37f-42e9-9e56-49ce02772049, url: 'https://github.com/Leandritonica92/nodejs-helloworld-api.git'
+                    }
+                }
             }
         }
         
