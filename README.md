@@ -70,5 +70,5 @@ curl http://localhost:3000
 ### Verificación del Funcionamiento:
 
 - Para verificar su funcionamiento y completar la documentación de este README, se realizaron múltiples cambios en la rama principal, que fueron recibidos exitosamente por el proceso de Entrega Continua (CD).
-  - (https://postimg.cc/239N735H) 
-  - (https://postimg.cc/rRL31YsL) 
+  - Proceso finalizado de buil: (https://postimg.cc/239N735H) 
+  - Logs que muestra que se lanzao la tarea (https://postimg.cc/rRL31YsL) 
