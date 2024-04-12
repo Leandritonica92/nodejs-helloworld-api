@@ -70,7 +70,8 @@ curl http://localhost:3000
 ### <span style="font-family:Arial, sans-serif; font-size:16px;">Verificación del Funcionamiento:</span>
 
 - <span style="font-family:Arial, sans-serif; font-size:14px;">Para verificar su funcionamiento y completar la documentación de este README, se realizaron múltiples cambios en la rama principal, que fueron recibidos exitosamente por el proceso de Entrega Continua (CD).</span>
+
   - <span style="font-family:Arial, sans-serif; font-size:14px;"><a href="https://postimg.cc/239N735H" style="color:green; text-decoration:none;"><img src="https://i.postimg.cc/1.png" alt="1.png" style="border:1px solid green;"></a></span>
+  
   - <span style="font-family:Arial, sans-serif; font-size:14px;"><a href="https://postimg.cc/rRL31YsL" style="color:green; text-decoration:none;"><img src="https://i.postimg.cc/2.png" alt="2.png" style="border:1px solid green;"></a></span>
 
-[![2.png](https://i.postimg.cc/g2GKvN9B/2.png)](https://postimg.cc/MvrRw0py)
