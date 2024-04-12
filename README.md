@@ -48,18 +48,18 @@ curl http://localhost:3000
 
 3. **Acceder a Jenkins a través de ngrok:**
    - Abre tu navegador web y ve al enlace proporcionado por ngrok.
-     - Dirección IP: [https://f9b1-2802-8010-821d-e200-b0b3-141-3b8b-4a06.ngrok-free.app](https://f9b1-2802-8010-821d-e200-b0b3-141-3b8b-4a06.ngrok-free.app)
-     - [Acceder a Jenkins](https://postimg.cc/K3zv2z7z) : [![endopindt.png](https://i.postimg.cc/endopindt/endopindt.png)](https://postimg.cc/K3zv2z7z)
+     - Dirección IP [https://f9b1-2802-8010-821d-e200-b0b3-141-3b8b-4a06.ngrok-free.app](https://f9b1-2802-8010-821d-e200-b0b3-141-3b8b-4a06.ngrok-free.app)
+     - Acceder a Jenkins (https://postimg.cc/K3zv2z7z) 
 
 4. **Configuración del webhook en GitHub:**
    - En la configuración de tu repositorio en GitHub, agrega una nueva URL de webhook apuntando al enlace de ngrok para los eventos "push" y "pull request".
-   - Configurar webhook en GitHub (https://postimg.cc/WdNs30F4) : [![asf.png](https://i.postimg.cc/asf.png)](https://postimg.cc/WdNs30F4)
-   - Seleccionar eventos en GitHub (https://postimg.cc/V5d8sN3P) : [![pyll.png](https://i.postimg.cc/pyll.png)](https://postimg.cc/V5d8sN3P)
+   - Configurar webhook en GitHub (https://postimg.cc/WdNs30F4) 
+   - Seleccionar eventos en GitHub (https://postimg.cc/V5d8sN3P) 
 
 5. **Configuración de Jenkins para recibir notificaciones de GitHub:**
    - En Jenkins, configura un nuevo pipeline o proyecto y agrega las credenciales de GitHub.
      - Asegúrate de agregar la URL del repositorio de GitHub.
-     - [3.png](https://postimg.cc/CBbbb02h) : ![3.png](https://i.postimg.cc/3.png)
+     - (https://postimg.cc/CBbbb02h) : ![3.png](https://i.postimg.cc/3.png)
    - Activar la opción "GitHub hook trigger for GITScm polling" en Jenkins para que se accione como un gatillo que activa la construcción automática del proyecto cuando se produce un cambio en el repositorio de GitHub
      -(https://postimg.cc/rKxHD9DL) : [![4.png](https://i.postimg.cc/4.png)](https://postimg.cc/rKxHD9DL)
 
