@@ -72,3 +72,19 @@ curl http://localhost:3000
 - Para verificar su funcionamiento y completar la documentación de este README, se realizaron múltiples cambios en la rama principal, que fueron recibidos exitosamente por el proceso de Entrega Continua (CD).
   - Proceso finalizado de buil: (https://postimg.cc/239N735H) 
   - Logs que muestra que se lanzao la tarea (https://postimg.cc/rRL31YsL) 
+
+## Diagrama de alto nivel de la preparación del CI/CD
+---
+
+```mermaid
+flowchart TD
+    subgraph Secuencia de Preparación del CI/CD
+        A((Instalar ngrok)) --> B((Ejecutar ngrok))
+        B --> C((Acceder a Jenkins))
+        C --> D((Configurar webhook en GitHub))
+        D --> E((Configurar Jenkins))
+        E --> F((Puede recibir commits))
+    end
+
+
+
