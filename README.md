@@ -53,22 +53,22 @@ curl http://localhost:3000
 
 4. **Configuración del webhook en GitHub:**
    - En la configuración de tu repositorio en GitHub, agrega una nueva URL de webhook apuntando al enlace de ngrok para los eventos "push" y "pull request".
-     - [Configurar webhook en GitHub](https://postimg.cc/WdNs30F4) : [![asf.png](https://i.postimg.cc/asf.png)](https://postimg.cc/WdNs30F4)
-   - [Seleccionar eventos en GitHub](https://postimg.cc/V5d8sN3P) : [![pyll.png](https://i.postimg.cc/pyll.png)](https://postimg.cc/V5d8sN3P)
+   - Configurar webhook en GitHub (https://postimg.cc/WdNs30F4) : [![asf.png](https://i.postimg.cc/asf.png)](https://postimg.cc/WdNs30F4)
+   - Seleccionar eventos en GitHub (https://postimg.cc/V5d8sN3P) : [![pyll.png](https://i.postimg.cc/pyll.png)](https://postimg.cc/V5d8sN3P)
 
 5. **Configuración de Jenkins para recibir notificaciones de GitHub:**
    - En Jenkins, configura un nuevo pipeline o proyecto y agrega las credenciales de GitHub.
      - Asegúrate de agregar la URL del repositorio de GitHub.
      - [3.png](https://postimg.cc/CBbbb02h) : ![3.png](https://i.postimg.cc/3.png)
    - Activar la opción "GitHub hook trigger for GITScm polling" en Jenkins para que se accione como un gatillo que activa la construcción automática del proyecto cuando se produce un cambio en el repositorio de GitHub
-     - [Más información](https://postimg.cc/rKxHD9DL) : [![4.png](https://i.postimg.cc/4.png)](https://postimg.cc/rKxHD9DL)
+     -(https://postimg.cc/rKxHD9DL) : [![4.png](https://i.postimg.cc/4.png)](https://postimg.cc/rKxHD9DL)
 
 6. **¡Preparado para recibir commits!**
    - En este punto, Jenkins responderá automáticamente a los commits en tu repositorio.
-     - [tyit.png](https://postimg.cc/47X9JWkx) : ![tyit.png](https://i.postimg.cc/tyit.png)
+   - (https://postimg.cc/47X9JWkx) : ![tyit.png](https://i.postimg.cc/tyit.png)
 
 ### Verificación del Funcionamiento:
 
 - Para verificar su funcionamiento y completar la documentación de este README, se realizaron múltiples cambios en la rama principal, que fueron recibidos exitosamente por el proceso de Entrega Continua (CD).
-  - [1.png](https://postimg.cc/239N735H) : ![1.png](https://i.postimg.cc/1.png)
-  - [2.png](https://postimg.cc/rRL31YsL) : ![2.png](https://i.postimg.cc/2.png)
+  - (https://postimg.cc/239N735H) : ![1.png](https://i.postimg.cc/1.png)
+  - (https://postimg.cc/rRL31YsL) : ![2.png](https://i.postimg.cc/2.png)
