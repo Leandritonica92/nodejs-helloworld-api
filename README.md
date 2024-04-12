@@ -76,19 +76,11 @@ curl http://localhost:3000
 ## Diagrama de alto nivel de la preparación del CI/CD
 ---
 
-graph LR
-    style A fill:#fff,stroke:#000,stroke-width:2px;
-    style B fill:#fff,stroke:#000,stroke-width:2px;
-    style C fill:#fff,stroke:#000,stroke-width:2px;
-    style D fill:#fff,stroke:#000,stroke-width:2px;
-    style E fill:#fff,stroke:#000,stroke-width:2px;
-    style F fill:#fff,stroke:#000,stroke-width:2px;
-    
-    A[Instalar ngrok] --> B[Ejecutar ngrok]
-    B --> C[Acceder a Jenkins]
-    C --> D[Configurar webhook en GitHub]
-    D --> E[Configurar Jenkins]
-    E --> F[Puede recibir commits]
-
+graph TD;
+    A[Instalar ngrok] --> B[Ejecutar ngrok];
+    B --> C[Acceder a Jenkins];
+    C --> D[Configuracion del webhook en GitHub];
+    D --> E[Configucion de Jenkins];
+    E --> F[Puede recibir Commits];
 
 
