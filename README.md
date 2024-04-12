@@ -44,7 +44,7 @@ curl http://localhost:3000
      ngrok http http://localhost:8080
      ```
    - <span style="font-family:Arial, sans-serif; font-size:14px;">Esto proporcionará un enlace público para acceder a Jenkins.</span>
-     - <span style="font-family:Arial, sans-serif; font-size:14px;"><a href="https://postimg.cc/wyxCYR2s" style="color:green; text-decoration:none;">Más información</a> : <a href="https://postimg.cc/wyxCYR2s"><img src="https://i.postimg.cc/xCLnHKbg/5.png" alt="5.png" style="border:1px solid green;"></a></span>
+     - <span style="font-family:Arial, sans-serif; font-size:14px;"><a href="https://postimg.cc/wyxCYR2s" style="color:green; text-decoration:none;">Más información</a> : <a href="https://postimg.cc/wyxCYR2s">![5.png](https://i.postimg.cc/wyxCYR2s)</a></span>
 
 3. **<span style="font-family:Arial, sans-serif; font-size:14px;">Acceder a Jenkins a través de ngrok:</span>**
    - <span style="font-family:Arial, sans-serif; font-size:14px;">Abre tu navegador web y ve al enlace proporcionado por ngrok.</span>
