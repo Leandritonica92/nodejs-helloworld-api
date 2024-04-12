@@ -76,21 +76,19 @@ curl http://localhost:3000
 ## Diagrama de alto nivel de la preparación del CI/CD
 ---
 
-graph TD;
-    style SecuenciaDePreparacionDiag fill:#f9f,stroke:#333,stroke-width:2px;
-    style InstalarNgrok fill:#8fd,stroke:#333,stroke-width:2px;
-    style EjecutarNgrok fill:#8fd,stroke:#333,stroke-width:2px;
-    style AccederAJenkins fill:#8fd,stroke:#333,stroke-width:2px;
-    style ConfigurarWebhook fill:#8fd,stroke:#333,stroke-width:2px;
-    style ConfigurarJenkins fill:#8fd,stroke:#333,stroke-width:2px;
-    style PuedeRecibirCommits fill:#8fd,stroke:#333,stroke-width:2px;
-
-    SecuenciaDePreparacionDiag[Secuencia de Preparación del CI/CD]
-    InstalarNgrok[Instalar ngrok] --> EjecutarNgrok[Ejecutar ngrok]
-    EjecutarNgrok --> AccederAJenkins[Acceder a Jenkins]
-    AccederAJenkins --> ConfigurarWebhook[Configurar webhook en GitHub]
-    ConfigurarWebhook --> ConfigurarJenkins[Configurar Jenkins]
-    ConfigurarJenkins --> PuedeRecibirCommits[Puede recibir commits]
+graph LR
+    style A fill:#fff,stroke:#000,stroke-width:2px;
+    style B fill:#fff,stroke:#000,stroke-width:2px;
+    style C fill:#fff,stroke:#000,stroke-width:2px;
+    style D fill:#fff,stroke:#000,stroke-width:2px;
+    style E fill:#fff,stroke:#000,stroke-width:2px;
+    style F fill:#fff,stroke:#000,stroke-width:2px;
+    
+    A[Instalar ngrok] --> B[Ejecutar ngrok]
+    B --> C[Acceder a Jenkins]
+    C --> D[Configurar webhook en GitHub]
+    D --> E[Configurar Jenkins]
+    E --> F[Puede recibir commits]
 
 
 
