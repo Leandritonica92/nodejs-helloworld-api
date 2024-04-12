@@ -31,7 +31,9 @@ curl http://localhost:3000
 ```
 ### CI/CD
 
-### Paso a Paso para Configurar Jenkins con ngrok:
+# <span style="font-size:larger;">**CI/CD**</span>
+---
+## Paso a Paso para Configurar Jenkins con ngrok:
 
 1. **Instalación de ngrok:**
    - Descarga ngrok desde su [página oficial](https://ngrok.com/download).
@@ -46,6 +48,8 @@ curl http://localhost:3000
 
 3. **Acceder a Jenkins a través de ngrok:**
    - Abre tu navegador web y ve al enlace proporcionado por ngrok.
+     - Dirección IP: [https://f9b1-2802-8010-821d-e200-b0b3-141-3b8b-4a06.ngrok-free.app](https://f9b1-2802-8010-821d-e200-b0b3-141-3b8b-4a06.ngrok-free.app)
+     - [Acceder a Jenkins](https://postimg.cc/ZCjXRpFV) : [![endopindt.png](https://i.postimg.cc/kgdCTyV3/endopindt.png)](https://postimg.cc/ZCjXRpFV)
 
 4. **Configuración del webhook en GitHub:**
    - En la configuración de tu repositorio en GitHub, agrega una nueva URL de webhook apuntando al enlace de ngrok.
