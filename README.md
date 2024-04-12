@@ -44,7 +44,7 @@ curl http://localhost:3000
      ngrok http http://localhost:8080
      ```
    - Esto proporcionará un enlace público para acceder a Jenkins.
-     - [Más información](https://postimg.cc/wyxCYR2s) : [![5.png](https://i.postimg.cc/wyxCYR2s)](https://postimg.cc/wyxCYR2s)
+     -(https://postimg.cc/wyxCYR2s)
 
 3. **Acceder a Jenkins a través de ngrok:**
    - Abre tu navegador web y ve al enlace proporcionado por ngrok.
@@ -75,5 +75,5 @@ curl http://localhost:3000
 
 ## Diagrama de alto nivel de la preparación del CI/CD
 ---
-![alt text](image-1.png)
 
+![alt text](image-6.png)
