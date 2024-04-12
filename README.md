@@ -75,7 +75,5 @@ curl http://localhost:3000
 
 ## Diagrama de alto nivel de la preparación del CI/CD
 ---
-
-(image.png)
-
+![alt text](image-1.png)
 
