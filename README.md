@@ -73,7 +73,7 @@ curl http://localhost:3000
   - Proceso finalizado de buil: (https://postimg.cc/239N735H) 
   - Logs que muestra que se lanzao la tarea (https://postimg.cc/rRL31YsL) 
 
-## Diagrama de alto nivel de la preparación del CI/CD
+## Diagrama de Alto Nivel de la preparación del CI/CD
 ---
 
 [![asfasffffffffffffffffffffffffffffffffffffffffffffffff.png](https://i.postimg.cc/K81882Vx/asfasffffffffffffffffffffffffffffffffffffffffffffffff.png)](https://postimg.cc/Mn8S9hqF)
